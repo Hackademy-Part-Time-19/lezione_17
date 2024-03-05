@@ -1,6 +1,6 @@
 <x-layouts.app>
     <h1>Home page</h1>
 
-    <livewire:form/>
+    <livewire:search-users/>
 
 </x-layouts.app>

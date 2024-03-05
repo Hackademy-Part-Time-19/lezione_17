@@ -6,15 +6,15 @@ use Livewire\Component;
 
 class Form extends Component
 {
-    public $title="";
-    public $description="";
+    public $title = "";
+    public $description = "";
 
-    public function mount(){
-      
+    public function mount()
+    {
     }
 
     public function render()
     {
-        return view('livewire.form');
+        return view('livewire.form', compact('users'));
     }
 }
